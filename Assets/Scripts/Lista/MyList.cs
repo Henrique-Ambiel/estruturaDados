@@ -40,17 +40,20 @@ public class MyList<ListType> //Protege a classe Node, permitindo que os dados d
     //Método de inserir elemento no fim da lista
     public void InsertLast(ListType inValue)
     {
-        //Verifica se a lista está vazia
-        if (_first == null && _last == null)
-        {
-
-        }
-        
-        
         _count++; //Conta os nós cada vez que um novo é adicionado
         Node<ListType> NewValue = new Node<ListType>(inValue); //Cria um nó para a lista
 
-        _last.next = NewValue; //O último valor deixa de ser o último valor e aponta para o novo valor inserido
-        _last = NewValue; //O novo valor inserido passa a ser o último
+        //Verifica se a lista está vazia
+        if (_first == null)
+        {
+            _first = NewValue;
+            _last = NewValue;
+        } else
+        {
+            _last.next = NewValue; //O último valor deixa de ser o último valor e aponta para o novo valor inserido
+            _last = NewValue; //O novo valor inserido passa a ser o último
+        }
     }
+
+
 }
