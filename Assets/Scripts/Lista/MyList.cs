@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//
 public class MyList<ListType> //Protege a classe Node, permitindo que os dados dela estejam protegidos
 {
     //Classe nó
@@ -37,23 +36,43 @@ public class MyList<ListType> //Protege a classe Node, permitindo que os dados d
         _count = 0;
     }
 
+    //Construtor que expõe o valor de count
+    public int GetCount() { return _count; }
+
     //Método de inserir elemento no fim da lista
     public void InsertLast(ListType inValue)
     {
         _count++; //Conta os nós cada vez que um novo é adicionado
-        Node<ListType> NewValue = new Node<ListType>(inValue); //Cria um nó para a lista
+        Node<ListType> newValue = new Node<ListType>(inValue); //Cria um nó para a lista
 
         //Verifica se a lista está vazia
         if (_first == null)
         {
-            _first = NewValue;
-            _last = NewValue;
+            _first = newValue;
+            _last = newValue;
         } else
         {
-            _last.next = NewValue; //O último valor deixa de ser o último valor e aponta para o novo valor inserido
-            _last = NewValue; //O novo valor inserido passa a ser o último
+            _last.next = newValue; //O último valor deixa de ser o último valor e aponta para o novo valor inserido
+            _last = newValue; //O novo valor inserido passa a ser o último
         }
     }
 
+    //Método de inserir elemento no início da lista
+    public void InsertFirst(ListType inValue)
+    {
+        _count++;//Conta os nós cada vez que um novo é adicionado
+        Node<ListType> newValue = new Node<ListType>(inValue);//Cria um nó para a lista
 
+        //Verifica se a lista está vazia
+        if(_first == null)
+        {
+            _first = newValue;
+            _last = newValue;
+        } else
+        {
+            newValue.next = _first; //O novo valor inserido passa a ser o primeiro
+            _first = newValue; //O primeiro valor deixa de ser o primeiro valor e aponta para o novo valor inserido
+        }
+    }
 }
+
