@@ -74,5 +74,57 @@ public class MyList<ListType> //Protege a classe Node, permitindo que os dados d
             _first = newValue; //O primeiro valor deixa de ser o primeiro valor e aponta para o novo valor inserido
         }
     }
+
+    //Método que remove itens da lista e retorna o valor removido
+    public ListType RemoveAt(int index)
+    {
+        Debug.Assert((index < _count && index >= 0), "Out of bounds"); //Exibe em caso de erro se não existir indíce
+        Debug.Assert(_first != null, "Empty List"); //Exibe em caso de erro se a lista está vazia
+
+        --_count;
+        if (index == 0) //Verifica se o elemento removido da lista é o primeiro
+        {
+            ListType result = _first.value; //Guarda o valor do nó
+
+            Node<ListType> resultNode = _first; //Nó que guarda o primeiro valor
+            _first = resultNode.next; //Passa a referência para o novo valor
+            if (_count == 0) //Se remover o único elemento da lista
+                _last = _first;
+            resultNode = null; //O nó passa a apontar para null
+
+            return result; //Retorna o valor para o método
+        } 
+        else
+        {
+            Node<ListType> prior = GetByIndex(index - 1); //Nó anterior ao que será removido
+            Node<ListType> nodeToRemove = prior.next; //Nó que será removido
+            prior.next = nodeToRemove.next;
+            if (index == _count - 1) //Verifica se o nó é o último
+                _last = prior;
+            ListType result = nodeToRemove.value; //Guarda o valor do nó que será removido
+            nodeToRemove.next = null;
+
+            return result;
+        }
+    }
+
+    //Permite que utilize operadores lógicos do array em uma lista
+    public ListType this[int index]
+    {
+        get { return GetByIndex(index).value; } 
+        set { GetByIndex(index).value = value; }
+    }
+
+    //Método que retorna o nó que será removido
+    private Node<ListType> GetByIndex(int index)
+    {
+        Debug.Assert((index < _count && index >= 0), "Out of bounds");
+        Node<ListType> result = _first;
+
+        for (int i = 0; i < index; i++) //Percorre os nós até chegar no que irá remover
+            result = result.next;
+
+        return result;
+    }
 }
 
