@@ -72,7 +72,6 @@ public class Search : MonoBehaviour
                 end = middle - 1;
             }
         }
-
         return -1;
     }
 
@@ -97,7 +96,7 @@ public class Search : MonoBehaviour
         for(int i = 0; i < arrayCount; i++)
         {
             result += array[i].ToString();
-
         }
+        Debug.Log("Array: " + result);
     }
 }
