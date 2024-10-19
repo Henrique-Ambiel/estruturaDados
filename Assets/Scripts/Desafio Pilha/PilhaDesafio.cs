@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PilhaDesafio : MonoBehaviour
+/*public class PilhaDesafio : MonoBehaviour
 {
     //Variáveis
     public int first;
@@ -58,4 +58,4 @@ public class PilhaDesafio : MonoBehaviour
     {
 
     }
-}
+}*/
