@@ -1,4 +1,5 @@
 Projeto de Estrutura de Dados - Jogos Digitais 🎮📚
+
 Este repositório contém o projeto desenvolvido na aula de Estrutura de Dados do curso de Jogos Digitais. O objetivo principal é explorar os fundamentos de estruturas de dados aplicados a jogos, utilizando C# na Unity.
 
 📋 Conteúdo do Projeto
