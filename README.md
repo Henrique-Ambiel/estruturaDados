@@ -7,8 +7,10 @@ O projeto aborda os seguintes conceitos de estrutura de dados:
 
 Pilha (Stack): Implementações e exemplos de uso, como gerenciar estados ou ações em jogos.
 Lista (List): Manipulação e iteração eficiente de coleções de dados.
+
 Ordenação e Pesquisa: Métodos para organizar e buscar informações em coleções.
 Fila (Queue): Simulações de filas para processos em ordem sequencial.
+
 Nota: Este projeto é exclusivamente de estudo, portanto contém apenas scripts de algoritmos sem interface visual ou integração com cenas da Unity.
 
 💻 Tecnologias Utilizadas
