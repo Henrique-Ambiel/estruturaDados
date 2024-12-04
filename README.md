@@ -16,13 +16,18 @@ O projeto aborda os seguintes conceitos de estrutura de dados:
 Nota: Este projeto é exclusivamente de estudo, portanto contém apenas scripts de algoritmos sem interface visual ou integração com cenas da Unity.
 
 💻 Tecnologias Utilizadas
-Linguagem: C#
-Engine: Unity
+
+- Linguagem: C#
+  
+- Engine: Unity
+
 Foco: Estudo de algoritmos e estruturas de dados.
 
 📁 Estrutura do Repositório
-/Scripts: Contém todos os scripts relacionados aos conceitos abordados.
-Arquivos com exemplos e comentários explicativos para facilitar o entendimento.
+
+- /Scripts: Contém todos os scripts relacionados aos conceitos abordados.
+  
+- Arquivos com exemplos e comentários explicativos para facilitar o entendimento.
 
 🚀 Como Utilizar
 Faça o clone do repositório:
