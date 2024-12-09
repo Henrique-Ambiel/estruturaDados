@@ -39,5 +39,6 @@ Faça o clone do repositório:
 - Explore e execute os exemplos no ambiente Unity.
 
 🎯 Objetivo
+
 Este repositório foi criado para fins educativos, visando aprimorar a compreensão de estruturas de dados em um contexto voltado para o desenvolvimento de jogos digitais.
 
