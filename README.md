@@ -30,10 +30,9 @@ Foco: Estudo de algoritmos e estruturas de dados.
 - Arquivos com exemplos e comentários explicativos para facilitar o entendimento.
 
 🚀 Como Utilizar
+
 Faça o clone do repositório:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Henrique-Ambiel/estruturaDados.git
 Abra os scripts no editor de sua preferência, como o Visual Studio ou o Visual Studio Code.
 Explore e execute os exemplos no ambiente Unity.
 
