@@ -34,9 +34,9 @@ Foco: Estudo de algoritmos e estruturas de dados.
 Faça o clone do repositório:
 - git clone https://github.com/Henrique-Ambiel/estruturaDados.git
 
-- Abra os scripts no editor de sua preferência, como o Visual Studio ou o Visual Studio Code
+Abra os scripts no editor de sua preferência, como o Visual Studio ou o Visual Studio Code
 
-- Explore e execute os exemplos no ambiente Unity.
+Explore e execute os exemplos no ambiente Unity.
 
 🎯 Objetivo
 
