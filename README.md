@@ -1,8 +1,8 @@
-Projeto de Estrutura de Dados - Jogos Digitais 🎮📚
+# Projeto de Estrutura de Dados - Jogos Digitais 🎮📚
 
 Este repositório contém o projeto desenvolvido na aula de Estrutura de Dados do curso de Jogos Digitais. O objetivo principal é explorar os fundamentos de estruturas de dados aplicados a jogos, utilizando C# na Unity.
 
-📋 Conteúdo do Projeto
+## 📋 Conteúdo do Projeto
 O projeto aborda os seguintes conceitos de estrutura de dados:
 
 - Pilha (Stack): Implementações e exemplos de uso, como gerenciar estados ou ações em jogos.
@@ -15,7 +15,7 @@ O projeto aborda os seguintes conceitos de estrutura de dados:
 
 Nota: Este projeto é exclusivamente de estudo, portanto contém apenas scripts de algoritmos sem interface visual ou integração com cenas da Unity.
 
-💻 Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
 - Linguagem: C#
   
@@ -23,22 +23,22 @@ Nota: Este projeto é exclusivamente de estudo, portanto contém apenas scripts 
 
 Foco: Estudo de algoritmos e estruturas de dados.
 
-📁 Estrutura do Repositório
+## 📁 Estrutura do Repositório
 
 - /Scripts: Contém todos os scripts relacionados aos conceitos abordados.
   
 - Arquivos com exemplos e comentários explicativos para facilitar o entendimento.
 
-🚀 Como Utilizar
+## 🚀 Como Utilizar
 
 Faça o clone do repositório:
 - git clone https://github.com/Henrique-Ambiel/estruturaDados.git
 
-Abra os scripts no editor de sua preferência, como o Visual Studio ou o Visual Studio Code
+- Abra os scripts no editor de sua preferência, como o Visual Studio ou o Visual Studio Code
 
-Explore e execute os exemplos no ambiente Unity.
+- Explore e execute os exemplos no ambiente Unity.
 
-🎯 Objetivo
+## 🎯 Objetivo
 
 Este repositório foi criado para fins educativos, visando aprimorar a compreensão de estruturas de dados em um contexto voltado para o desenvolvimento de jogos digitais.
 
