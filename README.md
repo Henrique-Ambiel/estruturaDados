@@ -23,21 +23,6 @@ Nota: Este projeto é exclusivamente de estudo, portanto contém apenas scripts 
 
 Foco: Estudo de algoritmos e estruturas de dados.
 
-## 📁 Estrutura do Repositório
-
-- /Scripts: Contém todos os scripts relacionados aos conceitos abordados.
-  
-- Arquivos com exemplos e comentários explicativos para facilitar o entendimento.
-
-## 🚀 Como Utilizar
-
-Faça o clone do repositório:
-- git clone https://github.com/Henrique-Ambiel/estruturaDados.git
-
-- Abra os scripts no editor de sua preferência, como o Visual Studio ou o Visual Studio Code
-
-- Explore e execute os exemplos no ambiente Unity.
-
 ## 🎯 Objetivo
 
 Este repositório foi criado para fins educativos, visando aprimorar a compreensão de estruturas de dados em um contexto voltado para o desenvolvimento de jogos digitais.
